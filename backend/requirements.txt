@@ -11,3 +11,4 @@ pillow
 python-dotenv
 bcrypt
 pydantic-settings
+qrcode

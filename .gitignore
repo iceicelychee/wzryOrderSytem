@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables - 敏感信息
+.env
+.env.local
+.env.production
+!.env.example
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+frontend/dist/
+
+# Uploads - 用户上传文件
+backend/uploads/
+*.jpg
+*.jpeg
+*.png
+*.gif
+!frontend/src/assets/*.png
+!frontend/src/assets/*.jpg
+!frontend/public/*.png
+!frontend/public/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+
+# 证书和密钥
+*.key
+*.pem
+*.crt
+*.p12
+
+# Railway/Netlify 本地配置（可选）
+.railway/
+.netlify/
